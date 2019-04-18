@@ -1,0 +1,4 @@
+export(PopulationSNPSet,SampleSNPPhenotype,levelplotSNP)
+import(lattice,GenOrd,Matrix)
+importFrom("grDevices", "colorRampPalette")
+importFrom("stats", "as.dist", "cor", "qnorm", "rbinom", "rnorm", "sd")

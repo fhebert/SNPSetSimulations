@@ -1,0 +1,20 @@
+\begin{thebibliography}{}
+
+\bibitem[Barbiero and Ferrari, 2015]{GenOrd}
+Barbiero, A. and Ferrari, P.~A. (2015).
+\newblock {\em GenOrd: Simulation of Discrete Random Variables with Given
+  Correlation Matrix and Marginal Distributions}.
+\newblock R package version 1.4.0.
+
+\bibitem[Bates and Maechler, 2018]{Matrix}
+Bates, D. and Maechler, M. (2018).
+\newblock {\em Matrix: Sparse and Dense Matrix Classes and Methods}.
+\newblock R package version 1.2-14.
+
+\bibitem[Sarkar, 2008]{lattice}
+Sarkar, D. (2008).
+\newblock {\em Lattice: Multivariate Data Visualization with R}.
+\newblock Springer, New York.
+\newblock ISBN 978-0-387-75968-5.
+
+\end{thebibliography}

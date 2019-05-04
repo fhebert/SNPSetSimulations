@@ -1,4 +1,4 @@
-The `SNPSetSimulations` R package provides functions to generate GWAS related data. It aims namely at simulating genotypic
+The R package `SNPSetSimulations` provides functions to generate GWAS related data. It aims namely at simulating genotypic
 profiles under specific dependence structures and genering binary phenotypes under logistic models. To install and use the 
 package and read its vignette, run the following commands:
 

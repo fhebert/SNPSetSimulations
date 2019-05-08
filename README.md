@@ -4,7 +4,7 @@ package and read its vignette, run the following commands:
 
 ```{r,eval=FALSE}
 install.packages("devtools")
-devtools::install_github("fhebert/SNPSetSimulations",build_opts = c("--no-resave-data", "--no-manual"))
+devtools::install_github("fhebert/SNPSetSimulations")
 library(SNPSetSimulations)
 vignette("SNPSetSimulations")
 ```

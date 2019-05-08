@@ -20,7 +20,7 @@ levelplotSNP = function(Sigma){
   pal = colorRampPalette(c("blue","chartreuse3","yellow","yellow","red","black"))
   levelplot((as.matrix(as.dist(Sigma))+diag(diag(Sigma)))[1:m,m:1],at=seq(-1,1,by=0.01),
             scales=list(x=list(at=xat,labels=xlab),y=list(at=yat,labels=ylab),tck=c(1,0)),
-            xlab="j",ylab="i",col.regions=pal(200),
+            xlab="",ylab="",col.regions=pal(200),
             colorkey=list(at=seq(-1,1,0.01),labels=list(at=seq(-1,1,0.5),labels=seq(-1,1,by=0.5))),
             useRaster=TRUE)
 }
